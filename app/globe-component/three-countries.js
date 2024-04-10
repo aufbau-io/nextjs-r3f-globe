@@ -10,7 +10,7 @@ const ThreeCountries = () => {
         const { geometry } = data;
         return (
           <lineSegments key={index} geometry={new GeoJsonGeometry(geometry, 1)}>
-            <lineBasicMaterial color="#5c5c5c" />
+            <lineBasicMaterial color="#8b8b8b" />
           </lineSegments>
         );
       })}

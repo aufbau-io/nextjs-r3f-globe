@@ -17,14 +17,14 @@ export default function Home() {
           top: '0',
           left: '0',
           overflow: 'hidden',
-          // background: 'radial-gradient(\
-          //   circle at center,\
-          //   rgba(116, 108, 168, 0.3) 0%,\
-          //   rgba(116, 108, 168, 0.3) 10vw,\
-          //   rgba(214, 211, 243, 0.1) 40vw,\
-          //   rgba(214, 211, 243, 0) 50vw\
-          // )\
-          // #191919;'
+          background: 'radial-gradient(\
+            circle at 20%,\
+            #301934bb 60vh,\
+            #301934ff 70vh,\
+            #301934bb 80vh,\
+            #30193400 100vh\
+          )\
+          #000000;'
         }}>
           <ThreeScene />
         </div>
