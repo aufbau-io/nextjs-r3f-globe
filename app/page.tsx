@@ -3,11 +3,11 @@ import ThreeScene from './globe-component/three-scene';
 export default function Home() {
   return (
     <main className="flex flex-col">
-      {/* Top section, grey */}
+      {/* Top section, your existing code */}
       <section className="min-h-screen flex items-center justify-center bg-gray-300">
         <p className="text-white text-2xl">Top Section</p>
       </section>
-      {/* Middle section, black */}
+      {/* Middle section, CODE TO INTEGRATE */}
       <section className="flex items-center justify-center bg-black overflow-hidden relative" style={{ height: '120vh' }}>
         {/* Encapsulating div for ThreeScene with custom styling */}
         <div style={{
@@ -29,7 +29,7 @@ export default function Home() {
           <ThreeScene />
         </div>
       </section>
-      {/* Bottom section, grey */}
+      {/* Bottom section, your existing code */}
       <section className="min-h-screen flex items-center justify-center bg-gray-300">
         <p className="text-white text-2xl">Bottom Section</p>
       </section>
