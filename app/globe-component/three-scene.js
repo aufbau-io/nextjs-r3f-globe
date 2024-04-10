@@ -27,9 +27,9 @@ const ThreeScene = () => {
         filmOffset={20.0}
       />
       <ambientLight intensity={10.0} color="#f0f0f0" />
-      <spotLight position={[0, 0, 100]} color="#f0f0f0" intensity={100.0} />
-      <spotLight position={[0, 100, 0]} color="#f0f0f0" intensity={100.0} />
-      <spotLight position={[0, -100, 0]} color="#f0f0f0" intensity={100.0} />
+      <spotLight position={[0, 0, 1000]} color="#f0f0f0" intensity={1000.0} />
+      <spotLight position={[0, 1000, 0]} color="#f0f0f0" intensity={1000.0} />
+      <spotLight position={[0, -1000, 0]} color="#f0f0f0" intensity={1000.0} />
       <group>
         <Globe />
       </group>

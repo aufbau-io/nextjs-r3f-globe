@@ -19,10 +19,10 @@ export default function Home() {
           overflow: 'hidden',
           background: 'radial-gradient(\
             circle at 20%,\
-            #301934bb 60vh,\
-            #301934ff 70vh,\
-            #301934bb 80vh,\
-            #30193400 100vh\
+            #232323bb 0vh,\
+            #232323ff 50vh,\
+            #232323bb 100vh,\
+            #23232300 150vh\
           )\
           #000000;'
         }}>
